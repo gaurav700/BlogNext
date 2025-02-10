@@ -19,6 +19,8 @@ node_modules/
 .DS_Store
 .vscode/
 .idea/
+.env
+
 
 # Ignore package manager files
 node_modules/
