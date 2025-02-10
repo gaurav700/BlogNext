@@ -1,0 +1,41 @@
+node_modules/
+
+.next/*
+
+
+# Ignore compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Ignore editor/IDE temporary files
+*~
+.#*
+*.swp
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore package manager files
+node_modules/
+vendor/
+package-lock.json
+yarn.lock
+Pipfile.lock
+
+# Ignore log and temporary files
+*.log
+tmp/
+temp/
+/logs/
+*.bak
+
+# Ignore OS generated files
+Thumbs.db
+
+# Ignore coverage reports
+coverage/
